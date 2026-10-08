@@ -6,6 +6,8 @@ This project grew out of a practical problem: typing Neo symbols through an Opti
 
 This removes the implicit Option signal that caused that problem. It is an experimental alternative, with native macOS and application testing still pending. It does **not** promise that every IDE, terminal, remote session, or raw-key listener will handle the resulting event sequence correctly.
 
+![Neo on macOS: typing ! triggers an Option shortcut in the IDE. Confused orangutan: where !](assets/neo-option-orangutan.png)
+
 ## Key bindings
 
 Use physical key positions, regardless of their printed Neo characters.
