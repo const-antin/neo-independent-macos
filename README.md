@@ -1,6 +1,6 @@
 # Neo Independent for macOS — experimental
 
-Use Neo's symbol layers without turning Mod3 into macOS Option/Alt.
+Neo 2 on macOS keeps triggering Option/Alt shortcuts in your IDE? This experimental Karabiner-Elements setup uses Neo symbol layers without mapping Mod3 to Option, avoiding accidental Alt shortcuts while typing.
 
 This project grew out of a practical problem: typing Neo symbols through an Option-based Mod3 setup made IDEs interpret some keystrokes as shortcuts. Here, Caps Lock and the physical backslash key set private Karabiner variables. A custom macOS keyboard layout uses synthetic JIS Yen/Ro keystrokes to select the intended Neo layer. **The generated rules never synthesize Option.**
 
